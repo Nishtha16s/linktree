@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Style Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #555;
+    max-width: 300px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #0073b1;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #005582;
+}
+
+.link:nth-child(1) {
+    background-color: #333;
+}
+
+.link:nth-child(1):hover {
+    background-color: #222;
+}
+
+.link:nth-child(3) {
+    background-color: #1DA1F2;
+}
+
+.link:nth-child(3):hover {
+    background-color: #0a85d9;
+}
+
+.link:nth-child(4) {
+    background-color: #E1306C;
+}
+
+.link:nth-child(4):hover {
+    background-color: #bf1857;
+}
+
+</style>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <img src="images/nish.jpg.jpg" alt="Profile Picture" class="profile-pic">
+
+            <h1>@nishtharoy3</h1>
+            <p class="bio">Let's connect:p</p>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/Nishtha16s" target="_blank" class="link">GitHub</a>
+            <a href="https://www.linkedin.com/in/nishtharoy3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="link">Linkdin</a>
+            <a href="https://x.com/nishtharoy9?t=pbAzUL5R8cgpJLmXhNIG1w&s=09" target="_blank" class="link">Twitter</a>
+            <a href="https://www.instagram.com/nishtharoy3?igsh=aGM5a3N6MjVsaWI3" target="_blank" class="link">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
